@@ -8,7 +8,7 @@ export function BackButton() {
   const router = useRouter();
 
   return (
-    <Button variant="ghost" onClick={() => router.back()} className="flex items-center gap-2">
+    <Button variant="ghost" onClick={() => router.back()} className="flex items-center gap-2 absolute top-10 left-6">
       <ArrowLeft className="h-4 w-4" />
       Back
     </Button>
